@@ -4,8 +4,6 @@ from [![Explorys][ExplorysBanner]](https://www.explorys.com)
 [ExplorysBanner]: http://media.marketwire.com/attachments/201105/65384_ExplorysMedicalLogo_PMS.eps.jpg
 ## HTrain is a suite of HBase related utilities from Explorys 
 
-Check us out at [our website!](https://www.explorys.com)
-
 
 Some highlights of HTrain either committed or coming soon are:
 
