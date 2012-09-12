@@ -1,6 +1,6 @@
 # HTrain
 
-from ![Explorys](https://www.explorys.com/home "Explorys")
+from ![Explorys](http://media.marketwire.com/attachments/201105/65384_ExplorysMedicalLogo_PMS.eps.jpg "Explorys")
 
 ## HTrain is a suite of HBase related utilities from Explorys 
 
