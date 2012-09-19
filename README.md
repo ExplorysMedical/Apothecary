@@ -1,11 +1,11 @@
-# HTrain
+# Apothecary
 
 from [![Explorys][ExplorysBanner]](https://www.explorys.com)
 [ExplorysBanner]: http://media.marketwire.com/attachments/201105/65384_ExplorysMedicalLogo_PMS.eps.jpg
-## HTrain is a suite of HBase related utilities from Explorys 
+## Apothecary is a suite of HBase related utilities from Explorys 
 
 
-Some highlights of HTrain either committed or coming soon are:
+Some highlights of Apothecary either committed or coming soon are:
 
 Sorry, no real code yet. Just made the repository, have to get stuff into a project and attach the licenses and talk to the lawyer.
 
@@ -23,7 +23,7 @@ Sorry, no real code yet. Just made the repository, have to get stuff into a proj
 
 ### Building the project with Maven
 * Check out the project.
-* `git clone git@github.com:ExplorysMedical/HTrain.git`
+* `git clone git@github.com:ExplorysMedical/Apothecary.git`
 * Edit the pom.xml to reflect the version of hadoop and hbase you are using. (Tested on CDH3U4)
 * Install to your local repository from the project directory
 * `mvn clean install`
@@ -32,8 +32,8 @@ Sorry, no real code yet. Just made the repository, have to get stuff into a proj
 
 ```maven
 <dependency>
-  <groupId>com.explorys.htrain</groupId>
-  <artifactId>HTrain</artifactID>
+  <groupId>com.explorys.apothecary</groupId>
+  <artifactId>Apothecary</artifactID>
   <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
