@@ -1,4 +1,8 @@
 target
-.project
-.settings*
+*.class
+bin
+.settings
 .classpath
+.project
+.externalToolBuilders
+dependency-reduced-pom.xml
