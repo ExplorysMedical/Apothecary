@@ -5,9 +5,7 @@ from [![Explorys][ExplorysBanner]](https://www.explorys.com)
 ## Apothecary is a suite of HBase related utilities from Explorys 
 
 
-Some highlights of Apothecary either committed or coming soon are:
-
-Sorry, no real code yet. Just made the repository, have to get stuff into a project and attach the licenses and talk to the lawyer.
+Some highlights of Apothecary are:
 
 1. An alternative implementation of an InputFormat to allow you to use HBase as a source for mapreduce jobs.
    * Reads directly from on disk storefiles
