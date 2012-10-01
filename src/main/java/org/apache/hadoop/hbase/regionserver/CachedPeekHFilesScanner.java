@@ -44,7 +44,13 @@ public class CachedPeekHFilesScanner implements ResultScanner {
     public CachedPeekHFilesScanner(HRegion region, Scan scan){
         this.storeScanners = new ArrayList<FamilyScanner>();
         try {
-            for (byte[] family : scan.getFamilies()){
+	    byte[][] families = scan.getFamilies();
+            if (families == null){
+                Set<byte[]> familieSet  = region.getTableDesc().getFamiliesKeys();
+                families =  familieSet.toArray(new byte[][]{});
+      
+            }
+            for (byte[] family : families){
                 Store store = region.getStore(family);
                 Method storeFileAccesor = store.getClass().getDeclaredMethod("getStorefiles");
                 storeFileAccesor.setAccessible(true);
